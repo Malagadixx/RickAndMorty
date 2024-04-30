@@ -5,7 +5,7 @@ import ListRickandMorty from '@/components/ListRickandMorty.vue';
 let rickAndMortys = reactive(ref())
 
 onMounted(() => {
-  fetch("https://rickandmortyapi.com/api/character/?page=2")
+  fetch("https://rickandmortyapi.com/api/character")
   .then(response => response.json())
   .then(response => {
     rickAndMortys.value = response.results

@@ -14,7 +14,7 @@ const rickAndMorty = defineProps(["name", "status", "species", "gender", "locati
                 <p> Espécie: {{ rickAndMorty.species}}</p>
                 <p> Gênero: {{ rickAndMorty.gender}}</p>
                 <p> Localização: {{ rickAndMorty.location }}</p>
-                <p> Episodío: {{ rickAndMorty.episode.length }}</p>
+                <p> Episodios: {{ rickAndMorty.episode.length }}</p>
             </div>
         </div>
     </div>
